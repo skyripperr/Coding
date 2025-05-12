@@ -1,0 +1,224 @@
+html {
+    scroll-behavior: smooth;
+}
+
+                                                    /* untuk mengatur halaman di web */
+body {
+    background: linear-gradient(#000046, #074c5f);
+    position: relative;
+	margin: 0px;
+}
+
+                                                    /* Untuk mengatur menu */
+.menu {
+    position: fixed;
+    z-index: 100;
+    font-family: tahoma;
+    font-weight: bold;
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(#000046, #1cb5e0);
+    font-size: 20px;
+}
+
+
+label {
+    
+    font-family: sans-serif;
+    font-size: 20pt;
+    color: white;
+    margin: 1px;
+    padding: 20px;
+    float: left;
+}
+
+.menu ul {
+    padding-top: 3px;
+    margin: 0px;
+    background: none;
+    display: block;
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+}
+
+                                                    /* untuk mengatur menu hover */
+.menu ul li a:hover{
+    display: block;
+    color: rgb(10, 109, 223);
+    background: #050000;
+    box-shadow: inset 0px 0px 5px #000;
+}
+
+                                                    /* untuk mengatur menu dropdown */
+.menu ul li .dropdown {
+    display: none;
+}
+
+.menu ul li:hover .dropdown {
+    display: block;
+    background: black ;
+    position: absolute;
+    padding: 10px;
+}
+
+.menu ul li:hover .dropdown li{
+    display: block;
+}
+
+.menu ul li:hover .dropdown li a{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.menu ul li:hover .dropdown li a:hover {
+    background: #222;
+    box-shadow: inset 0px 0px 5px #000;
+}
+
+                                                    /* untuk mengatur halaman konten */
+article .konten {
+    margin: 0%;
+    width: 1521px;
+    height: 729px;
+    display: flex;
+    position: absolute;
+    background-image: url("img/GambarHotel.jpeg");
+    background-size: 100% 100%;
+    -webkit-filter: brightness(80%);
+    filter: brightness(60%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+                                                    /* Untuk Mengatur Welcome Sign */
+.NamaHotel {
+    /*background-image: linear-gradient(to right, #32e7ff, #074da2, #0b0855);
+    -webkit-background-clip: text;
+    background-clip: text;*/
+    color: #ffffff;
+    left: 529px;
+    font-style: italic;
+    padding-top: 250px;
+    position: absolute;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    /*text-shadow: 0 0 10px #075247, 0 0 20px #420750, 0 0 20px #1e0746, 0 0 20px #4a0303, 0 0 20px #230452, 0 0 20px #00fff9, 0 0 20px #00fff9;*/
+}
+
+                                                    /* Pengaturan Kamar */
+
+article .ProfilKamar .gmbrKamar {
+    float: left;
+    margin: 5px 5px 5px 60px;
+}
+
+article .ProfilKamar .KalimatKamar{
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+    left: 200px;
+    margin-top: 0%;
+ }
+
+ article .ProfilKamar .Kamar {
+    font-family: sans-serif;
+    font-size: 50px;
+    float: left;
+    margin: 0px 0px 0px 330px;
+    text-align: center;
+}
+
+                                                    /* Garis yang ada dibawah kamar */
+
+article .Garisdibawahkamar {
+    float: left;
+    color: #ffffff;
+    margin: 0px 0px 0px 219px;
+}
+
+                                                    /* Pengaturan Restorant */
+
+article .ProfilResto .gmbrResto {
+    float: right;
+    margin: 5px 5px 5px 100px;
+    position: relative;    
+    right: 3%;
+}
+
+article .ProfilResto .KalimatResto{
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+    margin-top: 0%;
+ }
+
+ article .ProfilResto .Resto {
+    font-family: sans-serif;
+    font-size: 50px;
+    float: left;
+    margin: 0px 0px 0px 330px;
+    text-align: center;
+}
+
+                                                    /* Garis yang ada dibawah Resto */
+
+article .GarisdibawahResto {
+    float: left;
+    color: #ffffff;
+    margin: 0px 0px 0px 219px;
+}
+
+
+                                                    /* Pengaturan Pantai */
+
+article .ProfilPantai .gmbrPantai {
+    float: left;
+    margin: 5px 5px 5px 60px;
+}
+
+article .ProfilPantai .KalimatPantai{
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+    left: 200px;
+    margin-top: 0%;
+ }
+
+ article .ProfilPantai .Pantai {
+    font-family: sans-serif;
+    font-size: 50px;
+    float: left;
+    margin: 0px 0px 0px 289px;
+    text-align: center;
+}
+
+                                                    /* Pengaturan Footer */
+
+footer {
+    margin: 0%;
+    margin-top: 130px;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(#000046, #1cb5e0);
+    color: white;
+}
